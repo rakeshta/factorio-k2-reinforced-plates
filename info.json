@@ -1,0 +1,24 @@
+{
+  "name": "k2-reinforced-plates",
+  "version": "1.0.0",
+  "title": "K2 Reinforced Plates",
+  "description": "Reinforced plates from Krastorio 2.",
+  "author": "RaptorTWiked",
+  "factorio_version": "1.1",
+  "dependencies": [
+    "base >= 1.1",
+    "! Krastorio2 >= 0.0.1",
+    "! Krastorio2Assets >= 0.0.1"
+  ],
+  "package": {
+    "ignore": [
+      ".vscode",
+      "assets",
+      "build",
+      "scripts",
+      ".gitignore",
+      "package-lock.json",
+      "package.json"
+    ]
+  }
+}

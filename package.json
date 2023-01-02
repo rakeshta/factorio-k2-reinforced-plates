@@ -1,0 +1,18 @@
+{
+  "name": "k2-steel-pipes",
+  "version": "1.0.0",
+  "description": "Steel pipes & pumps from Krastorio 2.",
+  "author": "RaptorTWiked",
+  "license": "LGPLv3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts",
+    "build": "rm -rf build && /bin/bash scripts/build.sh"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "configparser": "^0.3.10"
+  }
+}
