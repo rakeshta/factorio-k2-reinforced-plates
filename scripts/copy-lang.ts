@@ -10,7 +10,7 @@ import ConfigParser from 'configparser';
 
 const K2_LANG_FILE = 'Krastorio2.cfg';
 const LANG_FILE = 'lang.cfg';
-const LANG_KEYS = [];
+const LANG_KEYS = ['kr-reinforced-plates', 'kr-black-reinforced-plate', 'kr-white-reinforced-plate'];
 
 async function main(): Promise<void> {
   // check if the source folder was passed as an argument
