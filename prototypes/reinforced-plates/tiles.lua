@@ -331,7 +331,7 @@ local function create_tile(variant, layer, map_color)
       type = "tile",
       name = name,
       needs_correction = false,
-      minable = { mining_time = 0.1, result = "kr-black-reinforced-plate" },
+      minable = { mining_time = 0.1, result = name },
       mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
       collision_mask = { "ground-tile" },
       walking_speed_modifier = 1.75,
