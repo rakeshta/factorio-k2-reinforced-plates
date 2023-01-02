@@ -479,3 +479,6 @@ end
 -- Black & white tiles from Krastorio 2
 create_tile("black", 95, { r = 40, g = 40, b = 40 })
 create_tile("white", 90, { r = 110, g = 110, b = 110 })
+
+-- Additional tiles
+create_tile("red", 93, { r = 128, g = 34, b = 34 })
