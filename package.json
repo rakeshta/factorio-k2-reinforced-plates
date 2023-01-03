@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts",
-    "build": "rm -rf build && /bin/bash scripts/build.sh"
+    "build": "rm -rf build && /bin/bash scripts/build.sh",
+    "read-info": "ts-node scripts/read-info.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"
