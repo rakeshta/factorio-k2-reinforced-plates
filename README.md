@@ -7,6 +7,10 @@ Add reinforced plates (floor tiles) from Krastorio 2 to your game without adding
 - **Black reinforced plate**
 - **White reinforced plate**
 
+## Credits
+
+Black/white reinforced plate **material textures**, **black tile transition overlays**, and **item icons** are taken from the Krastorio 2 asset pack (same art as Krastorio 2 in-game) so visuals stay consistent with the main mod.
+
 ## Related mods
 
 - [K2 Fluid Storage](https://mods.factorio.com/mod/k2-fluid-storage)
