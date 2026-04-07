@@ -18,18 +18,16 @@ data:extend({
   {
     type = "technology",
     name = "kr-reinforced-plates",
-    mod = "k2-reinforced-plates",
     icon = tiles_graphics_path .. "reinforced-plates-technology-icon.png",
     icon_size = 256,
-    icon_mipmaps = 4,
     effects = recipe_unlock_effects,
     prerequisites = { "concrete", "steel-processing" },
     unit = {
       count = 200,
       ingredients = {
         { "automation-science-pack", 1 },
-        { "logistic-science-pack", 1 },
-        { "chemical-science-pack", 1 },
+        { "logistic-science-pack",   1 },
+        { "chemical-science-pack",   1 },
       },
       time = 30,
     },

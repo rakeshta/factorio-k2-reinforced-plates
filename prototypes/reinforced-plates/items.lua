@@ -15,13 +15,12 @@ for variant, name in pairs(k2_tile_variants) do
       name = name,
       icon = tiles_graphics_path .. "reinforced-plate-" .. variant .. "-icon.png",
       icon_size = 64,
-      icon_mipmaps = 4,
       subgroup = "terrain",
       order = "z[reinforced-plate-" .. variant .. "]-a1[reinforced-plate-" .. variant .. "]",
       place_as_tile = {
         result = name,
         condition_size = 1,
-        condition = { "water-tile" },
+        condition = { layers = { water_tile = true } }
       },
       stack_size = 200,
     },

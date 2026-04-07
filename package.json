@@ -1,14 +1,16 @@
 {
   "name": "k2-steel-pipes",
   "version": "1.1.0",
-  "description": "Steel pipes & pumps from Krastorio 2.",
+  "description": "Reinforced plates (floor tiles) from Krastorio 2",
   "author": "RaptorTWiked",
   "license": "LGPLv3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts",
     "build": "rm -rf build && /bin/bash scripts/build.sh",
-    "read-info": "ts-node scripts/read-info.ts"
+    "read-info": "ts-node scripts/read-info.ts",
+    "link": "ln -s $(pwd) ~/Library/Application\\ Support/factorio/mods/$(npm run --silent read-info \"name\")",
+    "unlink": "rm ~/Library/Application\\ Support/factorio/mods/$(npm run --silent read-info \"name\")"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"
