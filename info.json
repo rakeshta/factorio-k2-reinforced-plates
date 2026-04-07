@@ -1,8 +1,8 @@
 {
   "name": "k2-reinforced-plates",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "title": "K2 Reinforced Plates",
-  "description": "Reinforced plates (floor tiles) from Krastorio 2",
+  "description": "Reinforced plates (dark & light floor tiles) from Krastorio 2.",
   "author": "RaptorTWiked",
   "factorio_version": "2.0",
   "dependencies": [
